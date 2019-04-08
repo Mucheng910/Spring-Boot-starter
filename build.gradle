@@ -15,4 +15,8 @@ repositories {
 
 dependencies {
     //TODO： 在此处编写出系统需要的 starter
+    implementation "org.springframework.boot:spring-boot-starter"
+    implementation "org.springframework.boot:spring-boot-starter-web"
+    testImplementation "org.springframework.boot:spring-boot-starter-test"
+    
 }
